@@ -19,7 +19,7 @@ sudo pacman -S --needed --noconfirm xdg-desktop-portal-hyprland hyprland-qt-supp
 sudo pacman -S --needed --noconfirm waybar dunst wofi fcitx5 fcitx5-bamboo
 
 # User applications
-sudo pacman -S --needed --noconfirm firefox nemo fastfetch
+sudo pacman -S --needed --noconfirm firefox nemo fastfetch neovim
 
 # Fonts
 sudo pacman -S --needed --noconfirm noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ttf-mononoki-nerd

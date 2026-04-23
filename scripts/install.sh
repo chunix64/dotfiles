@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 ./packages/pkg-base.sh
 ./packages/pkg-extra.sh
