@@ -20,3 +20,6 @@ sudo pacman -S --needed --noconfirm waybar dunst wofi fcitx5 fcitx5-bamboo
 
 # User applications
 sudo pacman -S --needed --noconfirm firefox nemo fastfetch
+
+# Fonts
+sudo pacman -S --needed --noconfirm noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ttf-mononoki-nerd
