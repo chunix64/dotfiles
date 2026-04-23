@@ -2,5 +2,5 @@
 chunix's dotfiles
 
 ```bash
-curl -fsSL https://github.com/chunix64/dotfiles/raw/refs/heads/main/DotfileInstaller | bash
+curl -fsSL https://raw.githubusercontent.com/chunix64/dotfiles/main/DotfileInstaller | bash
 ```
