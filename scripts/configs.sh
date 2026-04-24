@@ -21,8 +21,19 @@ replace_dir "../config/hypr" "$HOME/.config/hypr"
 replace_dir "../config/dunst" "$HOME/.config/dunst"
 replace_dir "../config/waybar" "$HOME/.config/waybar"
 
-# External configs
-git clone https://github.com/NvChad/starter ~/.config/nvim
+# GTK themes
+mkdir -p $HOME/.themes
+mkdir -p $HOME/.local/share/icons/
+git clone https://github.com/EliverLara/Nordic ~/.themes/Nordic
+curl -LO https://github.com/guillaumeboehm/Nordzy-cursors/releases/download/v2.4.0/Nordzy-cursors.tar.gz
+curl -LO https://github.com/guillaumeboehm/Nordzy-cursors/releases/download/v2.4.0/Nordzy-hyprcursors.tar.gz
+tar -zxvf Nordzy-cursors.tar.gz -C $HOME/.local/share/icons
+tar -zxvf Nordzy-hyprcursors.tar.gz -C $HOME/.local/share/icons
 
-# Oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+gsettings set org.gnome.desktop.interface gtk-theme "Nordic"
+gsettings set org.gnome.desktop.wm.preferences theme "Nordic"
+gsettings set org.gnome.desktop.interface cursor-theme 'Nordzy-cursors'
+
+# External configs
+rm -rf ~/.config/nvim
+git clone https://github.com/NvChad/starter ~/.config/nvim
