@@ -12,7 +12,9 @@ replace_dir() {
     cp -r "$src" "$dest"
 }
 
-mkdir $HOME/.config
+# Initialize directories
+mkdir -p $HOME/.config
+mkdir -p $HOME/Pictures/walls/
 
 cp -r ../home/. "$HOME/"
 
