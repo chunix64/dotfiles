@@ -16,7 +16,7 @@ sudo pacman -S --needed --noconfirm hyprland uwsm hyprpolkitagent hyprpaper hypr
 sudo pacman -S --needed --noconfirm xdg-desktop-portal-hyprland hyprland-qt-support
 
 # WM packages
-sudo pacman -S --needed --noconfirm waybar dunst wofi fcitx5 fcitx5-bamboo
+sudo pacman -S --needed --noconfirm nwg-look waybar dunst wofi fcitx5 fcitx5-bamboo
 
 # User applications
 sudo pacman -S --needed --noconfirm firefox nemo fastfetch neovim kitty lsd
