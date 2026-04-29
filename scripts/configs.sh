@@ -35,6 +35,7 @@ tar -zxvf Nordzy-hyprcursors.tar.gz -C $HOME/.local/share/icons
 gsettings set org.gnome.desktop.interface gtk-theme "Nordic"
 gsettings set org.gnome.desktop.wm.preferences theme "Nordic"
 gsettings set org.gnome.desktop.interface cursor-theme 'Nordzy-cursors'
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
 # External configs
 rm -rf ~/.config/nvim
