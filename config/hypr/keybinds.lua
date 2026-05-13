@@ -21,7 +21,7 @@ hl.bind(mainMod .. " + E",      hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + V",      hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + space",  hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + P",      hl.dsp.window.pseudo())
--- hl.bind(mainMod .. " + J",   hl.dsp.layout("togglesplit"))  -- dwindle
+hl.bind(mainMod .. " + J",      hl.dsp.layout("togglesplit"))
 
 -- Focus movement
 hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
@@ -79,9 +79,6 @@ hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("$HOME/.local/bin/ranwall.sh 
 
 -- Waybar restart
 hl.bind(mainMod .. " + escape",    hl.dsp.exec_cmd("pkill waybar; waybar"))
-
--- Plugin: hyprexpo
-hl.bind(mainMod .. " + G",         hl.dsp.exec_cmd("hyprctl dispatch hyprexpo:expo toggle"))
 
 -- Volume
 hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+"), { locked = true, repeating = true })
