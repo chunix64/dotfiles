@@ -3,6 +3,6 @@
 if ! command -v paru &> /dev/null; then
   git clone https://aur.archlinux.org/paru.git
   cd paru
-  makepkg -si
+  yes | makepkg -si
   cd ..
 fi

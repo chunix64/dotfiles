@@ -16,10 +16,13 @@ sudo pacman -S --needed --noconfirm hyprland uwsm hyprpolkitagent hyprpaper hypr
 sudo pacman -S --needed --noconfirm xdg-desktop-portal-hyprland hyprland-qt-support
 
 # WM packages
-sudo pacman -S --needed --noconfirm nwg-look waybar dunst wofi fcitx5 fcitx5-bamboo
+sudo pacman -S --needed --noconfirm nwg-look waybar dunst wofi fcitx5 fcitx5-bamboo fcitx5-configtool
 
 # User applications
 sudo pacman -S --needed --noconfirm firefox nemo fastfetch neovim kitty lsd nemo-fileroller brightnessctl
+
+# XDG
+sudo pacman -S --needed --noconfirm xdg-user-dirs xdg-user-dirs-gtk
 
 # Fonts
 sudo pacman -S --needed --noconfirm noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ttf-mononoki-nerd ttf-jetbrains-mono-nerd

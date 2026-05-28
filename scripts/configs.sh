@@ -37,6 +37,10 @@ gsettings set org.gnome.desktop.wm.preferences theme "Nordic"
 gsettings set org.gnome.desktop.interface cursor-theme 'Nordzy-cursors'
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
+# Initial xdg-user-dirs
+xdg-user-dirs-update
+xdg-user-dirs-gtk-update
+
 # External configs
 rm -rf ~/.config/nvim
 git clone https://github.com/NvChad/starter ~/.config/nvim

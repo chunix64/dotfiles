@@ -1,3 +1,3 @@
 #!/bin/bash
 
-# paru -S --needed --noconfirm
+paru -S --needed --noconfirm

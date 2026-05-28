@@ -148,4 +148,5 @@ bindkey "^[[3;5~" kill-wor
 alias vi=nvim
 alias neofetch=fastfetch
 alias ls=lsd
+alias ll="ls -l"
 alias yay=paru
