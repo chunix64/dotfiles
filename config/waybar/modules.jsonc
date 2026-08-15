@@ -34,6 +34,13 @@
     "format": " {usage:2}%",
     "interval": 2
   },
+  "upower": {
+    "native-path": "/org/bluez/hci0/dev_00_13_D6_98_6D_F0",
+    "format": "󰥉 {percentage}",
+    "show-icon": false,
+	  "hide-if-empty": true,
+	  "tooltip": true,
+  },
   "battery": {
     "format": "{icon} {capacity}%",
     "format-icons": ["", "", "", "", ""],
