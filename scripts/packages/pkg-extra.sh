@@ -4,7 +4,7 @@
 sudo pacman -S --needed --noconfirm ly networkmanager zsh
 
 # Pipewire audio
-sudo pacman -S --needed --noconfirm pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber
+sudo pacman -S --needed --noconfirm pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber realtime-privileges
 
 # Wayland base
 sudo pacman -S --needed --noconfirm wayland xorg-xwayland qt5-wayland qt6-wayland gtk3 gtk4 glfw-wayland
